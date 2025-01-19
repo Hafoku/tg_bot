@@ -1,0 +1,378 @@
+2025-01-12 21:43:54,205 - User 843926334 (Hafoku) issued command: halal.
+2025-01-12 21:43:55,769 - User 843926334 (Hafoku) issued command: halal.
+2025-01-12 21:44:00,719 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 21:44:09,642 - User 6112808773 (xyzbsa) selected language: ru.
+2025-01-12 21:51:38,749 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 21:54:58,627 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 21:55:06,169 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 21:55:09,099 - User 843926334 (Hafoku) issued command: halal.
+2025-01-12 21:55:10,047 - User 843926334 (Hafoku) issued command: haram.
+2025-01-12 21:55:11,113 - User 843926334 (Hafoku) issued command: score.
+2025-01-12 21:55:11,925 - User 843926334 (Hafoku) issued command: daily.
+2025-01-12 21:55:12,957 - User 843926334 (Hafoku) issued command: prayer_times.
+2025-01-12 21:55:14,560 - User 843926334 (Hafoku) issued command: random.
+2025-01-12 22:02:14,403 - онкэгнбюрекэ 987262844 (bdeysu) гюосярхк анрю.
+2025-01-12 22:02:15,263 - онкэгнбюрекэ 1825940801 (bekbossynn) гюосярхк анрю.
+2025-01-12 22:02:16,703 - User 987262844 (bdeysu) selected language: ru.
+2025-01-12 22:02:21,970 - User 987262844 (bdeysu) selected language: ru.
+2025-01-12 22:02:37,291 - User 1825940801 (bekbossynn) selected language: ru.
+2025-01-12 22:02:45,193 - User 1825940801 (bekbossynn) selected language: ru.
+2025-01-12 22:03:03,879 - User 1825940801 (bekbossynn) selected language: ru.
+2025-01-12 22:03:06,590 - User 1825940801 (bekbossynn) selected language: ru.
+2025-01-12 22:03:40,960 - онкэгнбюрекэ 1110352849 (dias_korshybek) гюосярхк анрю.
+2025-01-12 22:03:43,057 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:03:50,056 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:03:53,959 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:03:55,951 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:03:59,975 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:04:05,765 - онкэгнбюрекэ 1189796831 (None) гюосярхк анрю.
+2025-01-12 22:04:08,557 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:13,290 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:16,799 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:18,898 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:21,686 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:23,076 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:24,391 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:26,480 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:04:27,743 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:05:07,120 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:05:09,877 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:05:11,288 - онкэгнбюрекэ 1189796831 (None) гюосярхк анрю.
+2025-01-12 22:05:12,753 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:05:13,063 - User 1110352849 (dias_korshybek) selected language: ru.
+2025-01-12 22:05:19,987 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:05:32,468 - User 1189796831 (None) selected language: ru.
+2025-01-12 22:06:34,795 - онкэгнбюрекэ 6474386222 (kassym0vv) гюосярхк анрю.
+2025-01-12 22:06:37,793 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:06:49,384 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:06:51,424 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:06:52,903 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:06:54,316 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:06:55,856 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:04,337 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:07,223 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:07,738 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:08,430 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:09,148 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:09,563 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:09,989 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:11,452 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:07:22,889 - User 987262844 (bdeysu) selected language: ru.
+2025-01-12 22:07:25,031 - User 987262844 (bdeysu) selected language: ru.
+2025-01-12 22:07:26,866 - User 987262844 (bdeysu) selected language: ru.
+2025-01-12 22:07:28,386 - User 987262844 (bdeysu) selected language: ru.
+2025-01-12 22:08:03,769 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:08:10,785 - User 6474386222 (kassym0vv) selected language: ru.
+2025-01-12 22:08:30,722 - User 1825940801 (bekbossynn) selected language: ru.
+2025-01-12 22:10:15,777 - онкэгнбюрекэ 1003673539 (None) гюосярхк анрю.
+2025-01-12 22:10:21,147 - User 1003673539 (None) selected language: ru.
+2025-01-12 22:11:25,085 - онкэгнбюрекэ 1031553933 (Ualikhanov_Yerassyl) гюосярхк анрю.
+2025-01-12 22:11:27,855 - User 1031553933 (Ualikhanov_Yerassyl) selected language: ru.
+2025-01-12 22:11:30,839 - User 1031553933 (Ualikhanov_Yerassyl) selected language: ru.
+2025-01-12 22:14:23,143 - онкэгнбюрекэ 1184064162 (ener1vl) гюосярхк анрю.
+2025-01-12 22:14:27,555 - User 1184064162 (ener1vl) selected language: ru.
+2025-01-12 22:14:57,321 - User 1184064162 (ener1vl) selected language: ru.
+2025-01-12 22:15:05,430 - User 1184064162 (ener1vl) selected language: ru.
+2025-01-12 22:15:07,640 - User 1184064162 (ener1vl) selected language: ru.
+2025-01-12 22:15:08,482 - User 1184064162 (ener1vl) selected language: ru.
+2025-01-12 22:25:40,963 - онкэгнбюрекэ 1091934069 (nurassylmirkamalov) гюосярхк анрю.
+2025-01-12 22:25:42,984 - User 1091934069 (nurassylmirkamalov) selected language: ru.
+2025-01-12 22:25:46,716 - User 1091934069 (nurassylmirkamalov) selected language: ru.
+2025-01-12 22:25:51,796 - User 1091934069 (nurassylmirkamalov) selected language: ru.
+2025-01-12 22:25:54,424 - User 1091934069 (nurassylmirkamalov) selected language: ru.
+2025-01-12 22:25:55,972 - User 1091934069 (nurassylmirkamalov) selected language: ru.
+2025-01-12 22:26:05,541 - User 1091934069 (nurassylmirkamalov) selected language: ru.
+2025-01-12 22:31:03,124 - онкэгнбюрекэ 959146869 (dwaokki) гюосярхк анрю.
+2025-01-12 22:31:05,739 - User 959146869 (dwaokki) selected language: ru.
+2025-01-12 22:31:09,466 - User 959146869 (dwaokki) selected language: ru.
+2025-01-12 22:31:13,154 - User 959146869 (dwaokki) selected language: ru.
+2025-01-12 22:31:15,588 - User 959146869 (dwaokki) selected language: ru.
+2025-01-12 22:36:11,606 - онкэгнбюрекэ 1264027940 (A2M3I4N5A6) гюосярхк анрю.
+2025-01-12 22:36:14,451 - User 1264027940 (A2M3I4N5A6) selected language: ru.
+2025-01-12 22:36:22,546 - User 1264027940 (A2M3I4N5A6) selected language: ru.
+2025-01-12 22:36:25,516 - User 1264027940 (A2M3I4N5A6) selected language: ru.
+2025-01-12 22:36:27,420 - User 1264027940 (A2M3I4N5A6) selected language: ru.
+2025-01-12 22:36:30,967 - User 1264027940 (A2M3I4N5A6) selected language: ru.
+2025-01-12 22:36:39,263 - User 1264027940 (A2M3I4N5A6) selected language: ru.
+2025-01-12 22:36:42,715 - User 1264027940 (A2M3I4N5A6) selected language: ru.
+2025-01-12 22:39:06,480 - онкэгнбюрекэ 1047995825 (SeniorTore) гюосярхк анрю.
+2025-01-12 22:39:08,150 - User 1047995825 (SeniorTore) selected language: ru.
+2025-01-12 22:39:12,949 - User 1047995825 (SeniorTore) selected language: ru.
+2025-01-12 22:39:30,223 - User 1031553933 (Ualikhanov_Yerassyl) selected language: ru.
+2025-01-12 22:45:48,348 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 22:45:57,001 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:03,818 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:06,592 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:08,784 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:10,240 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:12,382 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:13,883 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:21,176 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:22,230 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:23,122 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:24,071 - User 843926334 (Hafoku) selected language: en.
+2025-01-12 22:46:28,947 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:46:31,129 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:46:32,779 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:46:33,431 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:47:01,775 - онкэгнбюрекэ 1078746822 (morze8) гюосярхк анрю.
+2025-01-12 22:47:05,564 - User 1078746822 (morze8) selected language: ru.
+2025-01-12 22:47:10,388 - User 1078746822 (morze8) selected language: ru.
+2025-01-12 22:47:21,925 - User 1078746822 (morze8) selected language: ru.
+2025-01-12 22:49:32,481 - онкэгнбюрекэ 1253890505 (damiros8) гюосярхк анрю.
+2025-01-12 22:49:35,417 - User 1253890505 (damiros8) selected language: ru.
+2025-01-12 22:57:00,452 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 22:57:27,622 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:57:29,694 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:57:31,004 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:57:31,902 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:57:33,071 - User 843926334 (Hafoku) selected language: ru.
+2025-01-12 22:57:48,151 - User 843926334 (Hafoku) issued command: daily.
+2025-01-12 22:57:49,411 - User 843926334 (Hafoku) issued command: random.
+2025-01-12 22:57:50,689 - User 843926334 (Hafoku) issued command: prayer_times.
+2025-01-12 22:57:52,469 - User 843926334 (Hafoku) issued command: halal.
+2025-01-12 22:57:53,577 - User 843926334 (Hafoku) issued command: halal.
+2025-01-12 22:57:54,468 - User 843926334 (Hafoku) issued command: haram.
+2025-01-12 22:57:55,357 - User 843926334 (Hafoku) issued command: score.
+2025-01-12 22:57:57,233 - User 843926334 (Hafoku) issued command: random.
+2025-01-12 22:57:59,387 - User 843926334 (Hafoku) issued command: random.
+2025-01-12 22:58:02,225 - User 843926334 (Hafoku) issued command: random.
+2025-01-12 22:58:05,492 - User 843926334 (Hafoku) issued command: random.
+2025-01-12 22:58:07,341 - User 843926334 (Hafoku) issued command: random.
+2025-01-12 22:58:07,853 - онкэгнбюрекэ 7410869832 (aboshanyuad) гюосярхк анрю.
+2025-01-12 22:58:14,056 - User 7410869832 (aboshanyuad) selected language: ru.
+2025-01-12 22:58:20,650 - User 7410869832 (aboshanyuad) issued command: halal.
+2025-01-12 22:58:24,199 - User 7410869832 (aboshanyuad) issued command: daily.
+2025-01-12 22:58:32,384 - User 7410869832 (aboshanyuad) issued command: prayer_times.
+2025-01-12 22:58:36,019 - User 843926334 (Hafoku) issued command: prayer_times.
+2025-01-12 22:58:39,351 - User 843926334 (Hafoku) issued command: daily.
+2025-01-12 22:58:40,968 - User 7410869832 (aboshanyuad) issued command: random.
+2025-01-12 22:58:49,136 - User 7410869832 (aboshanyuad) issued command: score.
+2025-01-12 22:58:53,043 - User 7410869832 (aboshanyuad) issued command: haram.
+2025-01-12 22:58:57,479 - User 7410869832 (aboshanyuad) issued command: haram.
+2025-01-12 22:59:00,578 - User 7410869832 (aboshanyuad) issued command: haram.
+2025-01-12 22:59:04,196 - User 7410869832 (aboshanyuad) issued command: haram.
+2025-01-12 23:01:09,323 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:01:54,682 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:08,196 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:08,726 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:09,287 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:09,821 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:10,197 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:10,624 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:11,097 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:35,958 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:38,894 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:02:39,424 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:03:03,730 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:03:07,971 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:04:51,625 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:43,121 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:56,596 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:57,051 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:57,632 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:58,282 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:58,806 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:59,224 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:59,589 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:05:59,941 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:06:00,555 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:06:01,130 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:06:08,135 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:08,663 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:10,337 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:11,680 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:13,131 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:13,541 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:13,935 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:15,201 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:15,877 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:16,418 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:06:58,467 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:06:59,033 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:06:59,382 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:06:59,683 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:06:59,939 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:00,204 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:00,448 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:00,717 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:00,962 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:01,213 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:08,877 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:09,306 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:09,534 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:09,780 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:10,016 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:10,261 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:10,510 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:10,771 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:11,006 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:11,241 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:07:58,878 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:59,607 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:07:59,952 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:00,211 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:00,492 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:00,760 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:01,009 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:01,291 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:01,547 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:01,835 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:08:09,819 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:10,348 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:10,722 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:16,178 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:21,355 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:24,192 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:26,641 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:28,690 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:30,544 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:33,066 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:08:59,877 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:09:00,671 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-12 23:09:10,831 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:11,439 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:11,760 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:12,083 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:12,431 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:12,812 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:13,289 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:13,692 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:14,063 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:09:14,448 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:10:11,769 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:10:12,363 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:30:59,766 - онкэгнбюрекэ 1897680836 (ke7ir) гюосярхк анрю.
+2025-01-12 23:31:01,831 - User 1897680836 (ke7ir) selected language: ru.
+2025-01-12 23:31:07,556 - User 1897680836 (ke7ir) issued command: halal.
+2025-01-12 23:31:11,226 - User 1897680836 (ke7ir) issued command: haram.
+2025-01-12 23:31:14,158 - User 1897680836 (ke7ir) issued command: score.
+2025-01-12 23:31:16,426 - User 1897680836 (ke7ir) issued command: daily.
+2025-01-12 23:31:26,631 - User 1897680836 (ke7ir) issued command: prayer_times.
+2025-01-12 23:31:37,720 - User 1897680836 (ke7ir) issued command: random.
+2025-01-12 23:31:42,818 - User 1897680836 (ke7ir) issued command: random.
+2025-01-12 23:31:46,868 - User 1897680836 (ke7ir) issued command: random.
+2025-01-12 23:31:51,305 - User 1897680836 (ke7ir) issued command: random.
+2025-01-12 23:31:56,694 - User 1897680836 (ke7ir) issued command: random.
+2025-01-12 23:32:04,961 - User 1897680836 (ke7ir) issued command: halal.
+2025-01-12 23:32:09,046 - User 1897680836 (ke7ir) issued command: halal.
+2025-01-12 23:38:23,969 - онкэгнбюрекэ 1557392836 (Woitho) гюосярхк анрю.
+2025-01-12 23:38:29,024 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:38:29,361 - User 1557392836 (Woitho) selected language: ru.
+2025-01-12 23:38:32,126 - User 6112808773 (xyzbsa) selected language: ru.
+2025-01-12 23:42:49,854 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-12 23:43:28,595 - онкэгнбюрекэ 1557392836 (Woitho) гюосярхк анрю.
+2025-01-12 23:49:51,620 - онкэгнбюрекэ 1111563369 (nyuopi) гюосярхк анрю.
+2025-01-12 23:49:55,975 - User 1111563369 (nyuopi) selected language: ru.
+2025-01-12 23:50:00,951 - User 1111563369 (nyuopi) issued command: score.
+2025-01-12 23:50:05,798 - User 1111563369 (nyuopi) issued command: halal.
+2025-01-12 23:50:09,665 - User 1111563369 (nyuopi) issued command: halal.
+2025-01-12 23:50:11,743 - User 1111563369 (nyuopi) issued command: haram.
+2025-01-12 23:50:15,187 - User 1111563369 (nyuopi) issued command: haram.
+2025-01-12 23:50:17,343 - User 1111563369 (nyuopi) issued command: haram.
+2025-01-12 23:55:40,726 - онкэгнбюрекэ 1127663598 (aithbst) гюосярхк анрю.
+2025-01-12 23:55:43,358 - User 1127663598 (aithbst) selected language: ru.
+2025-01-12 23:55:51,721 - User 1127663598 (aithbst) issued command: score.
+2025-01-12 23:55:55,281 - User 1127663598 (aithbst) issued command: prayer_times.
+2025-01-12 23:56:00,690 - User 1127663598 (aithbst) issued command: random.
+2025-01-12 23:56:12,433 - User 1127663598 (aithbst) issued command: halal.
+2025-01-12 23:56:15,750 - User 1127663598 (aithbst) issued command: halal.
+2025-01-12 23:56:18,634 - User 1127663598 (aithbst) issued command: halal.
+2025-01-12 23:56:21,627 - User 1127663598 (aithbst) issued command: haram.
+2025-01-12 23:56:24,691 - User 1127663598 (aithbst) issued command: haram.
+2025-01-12 23:56:30,779 - User 1127663598 (aithbst) issued command: haram.
+2025-01-13 00:01:00,510 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-13 00:01:03,481 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-13 00:01:06,917 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-13 00:01:07,190 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-13 00:01:07,514 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-13 00:01:07,873 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-13 00:01:12,886 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-13 00:08:36,137 - онкэгнбюрекэ 6112808773 (xyzbsa) гюосярхк анрю.
+2025-01-13 21:52:40,861 - онкэгнбюрекэ 1557392836 (Woitho) гюосярхк анрю.
+2025-01-13 22:43:53,066 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-13 22:43:56,271 - User 843926334 (Hafoku) selected language: ru.
+2025-01-13 22:43:57,594 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:43:58,408 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:43:59,825 - User 843926334 (Hafoku) issued command: score.
+2025-01-13 22:44:01,464 - User 843926334 (Hafoku) issued command: daily.
+2025-01-13 22:44:02,529 - User 843926334 (Hafoku) issued command: prayer_times.
+2025-01-13 22:44:04,343 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:44:11,318 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:44:26,534 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:44:27,048 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:44:28,023 - User 843926334 (Hafoku) issued command: prayer_times.
+2025-01-13 22:44:29,782 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:47:36,163 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-13 22:47:39,039 - User 843926334 (Hafoku) selected language: ru.
+2025-01-13 22:47:40,399 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:47:48,006 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:47:52,112 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:47:54,853 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:47:57,166 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:48:00,287 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:48:03,150 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:48:07,331 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:48:10,371 - User 843926334 (Hafoku) issued command: halal.
+2025-01-13 22:48:11,683 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:12,873 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:17,607 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:21,360 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:24,510 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:27,625 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:29,674 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:32,948 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:37,717 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:42,522 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:43,767 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:48:59,745 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:49:00,367 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:49:00,659 - User 843926334 (Hafoku) issued command: haram.
+2025-01-13 22:49:12,434 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:49:12,928 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:49:13,746 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:49:14,277 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:49:14,686 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:49:18,209 - User 843926334 (Hafoku) issued command: random.
+2025-01-13 22:49:18,603 - User 843926334 (Hafoku) issued command: random.
+2025-01-14 18:05:55,909 - онкэгнбюрекэ 5249679265 (Erizone) гюосярхк анрю.
+2025-01-14 23:33:55,369 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-14 23:33:59,347 - User 843926334 (Hafoku) selected language: ar.
+2025-01-14 23:34:09,968 - User 843926334 (Hafoku) issued command: halal.
+2025-01-14 23:34:18,565 - User 843926334 (Hafoku) issued command: haram.
+2025-01-14 23:34:53,495 - онкэгнбюрекэ 1791101856 (bonezkka) гюосярхк анрю.
+2025-01-14 23:34:56,035 - User 1791101856 (bonezkka) selected language: ru.
+2025-01-14 23:34:58,639 - User 1791101856 (bonezkka) issued command: haram.
+2025-01-14 23:35:05,211 - User 1791101856 (bonezkka) issued command: haram.
+2025-01-14 23:35:09,066 - User 1791101856 (bonezkka) issued command: haram.
+2025-01-14 23:35:11,737 - User 1791101856 (bonezkka) issued command: halal.
+2025-01-14 23:35:15,797 - User 1791101856 (bonezkka) issued command: score.
+2025-01-14 23:35:18,713 - User 1791101856 (bonezkka) issued command: daily.
+2025-01-14 23:35:24,373 - User 1791101856 (bonezkka) issued command: random.
+2025-01-14 23:35:31,788 - User 1791101856 (bonezkka) issued command: prayer_times.
+2025-01-14 23:36:10,945 - User 1791101856 (bonezkka) issued command: prayer_times.
+2025-01-14 23:36:14,417 - User 1791101856 (bonezkka) issued command: random.
+2025-01-14 23:36:28,503 - User 1791101856 (bonezkka) issued command: random.
+2025-01-14 23:36:35,551 - User 1791101856 (bonezkka) issued command: random.
+2025-01-14 23:36:43,996 - User 1791101856 (bonezkka) issued command: random.
+2025-01-14 23:36:52,940 - User 1791101856 (bonezkka) issued command: random.
+2025-01-14 23:38:53,456 - User 1791101856 (bonezkka) issued command: random.
+2025-01-14 23:39:33,223 - User 1791101856 (bonezkka) issued command: random.
+2025-01-15 00:11:32,313 - онкэгнбюрекэ 261237786 (aabducted) гюосярхк анрю.
+2025-01-15 00:11:35,220 - User 261237786 (aabducted) selected language: ru.
+2025-01-15 00:11:38,961 - User 261237786 (aabducted) issued command: halal.
+2025-01-15 00:11:47,254 - User 261237786 (aabducted) issued command: prayer_times.
+2025-01-15 00:11:50,846 - User 261237786 (aabducted) issued command: daily.
+2025-01-15 00:11:54,357 - User 261237786 (aabducted) issued command: random.
+2025-01-15 00:11:59,448 - User 261237786 (aabducted) issued command: random.
+2025-01-15 00:12:04,885 - User 261237786 (aabducted) issued command: random.
+2025-01-15 00:12:10,214 - User 261237786 (aabducted) issued command: random.
+2025-01-15 00:12:13,837 - User 261237786 (aabducted) issued command: random.
+2025-01-15 00:25:46,131 - User 261237786 (aabducted) issued command: haram.
+2025-01-16 00:13:17,791 - онкэгнбюрекэ 843926334 (Hafoku) гюосярхк анрю.
+2025-01-16 00:13:18,040 - онкэгнбюрекэ 1023791661 (leg666badd) гюосярхк анрю.
+2025-01-16 00:13:18,388 - онкэгнбюрекэ 1023791661 (leg666badd) гюосярхк анрю.
+2025-01-16 00:13:18,681 - онкэгнбюрекэ 1023791661 (leg666badd) гюосярхк анрю.
+2025-01-16 00:13:18,961 - онкэгнбюрекэ 1023791661 (leg666badd) гюосярхк анрю.
+2025-01-16 00:13:19,204 - онкэгнбюрекэ 1791101856 (bonezkka) гюосярхк анрю.
+2025-01-17 20:33:00,569 - онкэгнбюрекэ 5087086063 (Graco_Hitler) гюосярхк анрю.
