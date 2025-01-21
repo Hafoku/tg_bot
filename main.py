@@ -1,44 +1,103 @@
-import os
-import random
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
-import nest_asyncio
-import requests
-import logging
+import logging, os, random, requests, nest_asyncio
+from telegram import (
+    Update,
+    InlineKeyboardButton,
+    InlineKeyboardMarkup)
+from telegram.ext import (
+    Application,
+    CommandHandler,
+    CallbackQueryHandler,
+    ContextTypes,
+    MessageHandler,
+    filters,
+    JobQueue
+)
 
-# Настройка логирования
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+# ID администратора, чтобы бот уведомлял вас о новых пользователях
+ADMIN_ID = 843926334  # Замените на ваш Telegram ID
 
-# Настройка логирования
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+karma_score = {}
+user_language = {}
 
 # Папка для хранения сообщений
 messages_folder = "messages"
 os.makedirs(messages_folder, exist_ok=True)
 
 # Функция для сохранения сообщения в файл
-def save_message(user_id: int, message: str) -> None:
-    file_path = os.path.join(messages_folder, f"{user_id}.txt")
-    with open(file_path, "a", encoding="utf-8") as f:
-        f.write(f"{message}\n")
+def save_message(user_id: int, username: str, message: str) -> None:
+    # Используем user_id и username как имя файла для безопасности
+    username_safe = username if username else "unknown_user"
+    file_name = f"{user_id}_{username_safe}.txt"
+    file_path = os.path.join(messages_folder, file_name)
+    try:
+        with open(file_path, "a", encoding="utf-8") as f:
+            f.write(f"{message}\n")
+    except Exception as e:
+        logger.error(f"Ошибка при сохранении сообщения пользователя {user_id}: {e}")
 
-# Команда /start
 
-# Функция для обработки всех сообщений
-async def log_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+# Функция для получения случайного хадиса
+def get_random_hadith():
+    hadiths = {
+        "ru": [
+            "«Лучший из вас тот, кто учит Коран и учит ему других». (Бухари)",
+            "«Деяния оцениваются по намерениям». (Муслим)"
+        ],
+        "ar": [
+            "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ (البخاري)",
+            "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ (مسلم)"
+        ]
+    }
+    return {lang: random.choice(hadiths[lang]) for lang in ["ru", "ar"]}
+
+
+# Получение локации
+async def get_location(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user = update.message.from_user
-    message = update.message.text
+    location = update.message.location
+    user_logger.info(f"Пользователь {user.id} ({user.username}) отправил локацию: {location.latitude}, {location.longitude}")
+    await update.message.reply_text("Спасибо за предоставление локации!")
 
-    # Сохраняем сообщение в файл
-    save_message(user.id, message)
-    logger.info(f"Сообщение от пользователя {user.id}: {message}")
+# Получение контакта
+async def get_contact(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    user = update.message.from_user
+    contact = update.message.contact
+    user_logger.info(f"Пользователь {user.id} ({user.username}) отправил контакт: {contact.phone_number}")
+    await update.message.reply_text("Спасибо за предоставление контакта!")
 
-    if not message:  # Пропуск пустых сообщений
-        return "skibidi error"
 
+# Функция установка языка
+async def set_language(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    query = update.callback_query
+    user = query.from_user
+    if query.data == "lang_ru":
+        user_language[user.id] = "ru"
+        await query.answer("Выбран русский язык.")
+    elif query.data == "lang_ar":
+        user_language[user.id] = "ar"
+        await query.answer("تم اختيار اللغة العربية.")
 
+    lang = user_language[user.id]
+    user_logger.info(f"User {user.id} ({user.username}) selected language: {lang}.")
+
+    messages = {
+        "ru": "🤖 Добро пожаловать в Исламский Бот! 🤖\nНажмите на кнопки ниже для взаимодействия.",
+        "ar": "🤖 مرحباً بك في البوت الإسلامي! 🤖\nاضغط على الأزرار أدناه للتفاعل.",
+    }
+    keyboard = [
+        [InlineKeyboardButton("✅ Халяль / حلال", callback_data="halal")],
+        [InlineKeyboardButton("❌ Харам / حرام", callback_data="haram")],
+        [InlineKeyboardButton("📊 Очки Кармы / نقاط الكارما", callback_data="score")],
+        [InlineKeyboardButton("📖 Аят и Хадис / آية وحديث", callback_data="daily")],
+        [InlineKeyboardButton("🕋 Время Намаза / مواقيت الصلاة", callback_data="prayer_times")],
+        [InlineKeyboardButton("🎲 Рандомное действие / عمل عشوائي", callback_data="random")]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await query.message.reply_text(messages[lang], reply_markup=reply_markup)
+
+# Настройка логирования
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 
 # Настройка логирования пользователей
 user_log_handler = logging.FileHandler("userlogs.txt")
@@ -58,12 +117,35 @@ try:
 except FileNotFoundError:
     pass
 
+
 # Сохранение уникальных пользователей в файл
-def log_unique_user(user_id):
-    if str(user_id) not in unique_users:
-        unique_users.add(str(user_id))
-        with open(unique_users_file, "a") as f:
-            f.write(f"{user_id}\n")
+def log_unique_user(user_id, username):
+    username_safe = username if username else "unknown_user"
+    user_entry = f"{user_id}_{username_safe}"
+
+    if user_entry not in unique_users:
+        unique_users.add(user_entry)
+        try:
+            with open(unique_users_file, "a", encoding="utf-8") as f:
+                f.write(f"{user_entry}\n")
+        except Exception as e:
+            logger.error(f"Ошибка при сохранении уникального пользователя: {e}")
+
+# Функция для обработки всех сообщений
+async def log_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    user = update.message.from_user
+    message = update.message.text
+
+    # Получаем имя пользователя или устанавливаем "unknown_user", если имя отсутствует
+    username = user.username if user.username else "unknown_user"
+
+    # Сохраняем сообщение в файл
+    save_message(user.id, username, message)
+    logging.info(f"Сообщение от пользователя {user.id}: {message}")
+
+    if not message:  # Пропуск пустых сообщений
+        return "skibidi error"
+
 
 # Переменные для хранения данных
 halal_actions = {
@@ -145,14 +227,11 @@ haram_actions = {
 }
 
 
-karma_score = {}
-user_language = {}
-
-# Функция для получения времени намаза
+    # Функция для получения времени намаза
 def get_prayer_times(city):
     try:
         response = requests.get(f"https://api.aladhan.com/v1/timingsByCity", params={
-            "city": city,
+        "city": city,
             "country": "",
             "method": 2
         })
@@ -172,28 +251,14 @@ def get_random_ayat():
             "«И поминайте Меня — и Я буду помнить вас». (Коран 2:152)"
         ],
         "ar": [
-            "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ (البقرة 153)",
-            "فَاذْكُرُونِي أَذْكُرْكُمْ (البقرة 152)"
+              "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ (البقرة 153)",
+              "فَاذْكُرُونِي أَذْكُرْكُمْ (البقرة 152)"
         ]
     }
     return {lang: random.choice(ayats[lang]) for lang in ["ru", "ar"]}
 
-# Функция для получения случайного хадиса
-def get_random_hadith():
-    hadiths = {
-        "ru": [
-            "«Лучший из вас тот, кто учит Коран и учит ему других». (Бухари)",
-            "«Деяния оцениваются по намерениям». (Муслим)"
-        ],
-        "ar": [
-            "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ (البخاري)",
-            "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ (مسلم)"
-        ]
-    }
-    return {lang: random.choice(hadiths[lang]) for lang in ["ru", "ar"]}
 
-# ID администратора, чтобы бот уведомлял вас о новых пользователях
-ADMIN_ID = 1791101856  # Замените на ваш Telegram ID
+
 
 async def spam_admin(context: ContextTypes.DEFAULT_TYPE, true=1) -> None:
     chat_id = ADMIN_ID  # Укажите ваш ID администратора
@@ -209,7 +274,7 @@ async def spam_admin(context: ContextTypes.DEFAULT_TYPE, true=1) -> None:
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user = update.message.from_user
     user_logger.info(f"ПОЛЬЗОВАТЕЛЬ {user.id} ({user.username}) ЗАПУСТИЛ БОТА.")
-    log_unique_user(user.id)
+    log_unique_user(user.id, user.username if user.username else "unknown_user")
 
     # Уведомление вас (администратора)
     try:
@@ -231,49 +296,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text("Выберите язык / اختر لغتك:", reply_markup=reply_markup)
-
-# Установка языка
-async def set_language(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    query = update.callback_query
-    user = query.from_user
-    if query.data == "lang_ru":
-        user_language[user.id] = "ru"
-        await query.answer("Выбран русский язык.")
-    elif query.data == "lang_ar":
-        user_language[user.id] = "ar"
-        await query.answer("تم اختيار اللغة العربية.")
-
-    lang = user_language[user.id]
-    user_logger.info(f"User {user.id} ({user.username}) selected language: {lang}.")
-
-    messages = {
-        "ru": "🤖 Добро пожаловать в Исламский Бот! 🤖\nНажмите на кнопки ниже для взаимодействия.",
-        "ar": "🤖 مرحباً بك في البوت الإسلامي! 🤖\nاضغط على الأزرار أدناه للتفاعل.",
-    }
-    keyboard = [
-        [InlineKeyboardButton("✅ Халяль / حلال", callback_data="halal")],
-        [InlineKeyboardButton("❌ Харам / حرام", callback_data="haram")],
-        [InlineKeyboardButton("📊 Очки Кармы / نقاط الكارما", callback_data="score")],
-        [InlineKeyboardButton("📖 Аят и Хадис / آية وحديث", callback_data="daily")],
-        [InlineKeyboardButton("🕋 Время Намаза / مواقيت الصلاة", callback_data="prayer_times")],
-        [InlineKeyboardButton("🎲 Рандомное действие / عمل عشوائي", callback_data="random")]
-    ]
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    await query.message.reply_text(messages[lang], reply_markup=reply_markup)
-
-# Получение контакта
-async def get_contact(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    user = update.message.from_user
-    contact = update.message.contact
-    user_logger.info(f"Пользователь {user.id} ({user.username}) отправил контакт: {contact.phone_number}")
-    await update.message.reply_text("Спасибо за предоставление контакта!")
-
-# Получение локации
-async def get_location(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    user = update.message.from_user
-    location = update.message.location
-    user_logger.info(f"Пользователь {user.id} ({user.username}) отправил локацию: {location.latitude}, {location.longitude}")
-    await update.message.reply_text("Спасибо за предоставление локации!")
 
 # Обработка команд
 async def handle_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -342,6 +364,7 @@ async def handle_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     # Ответ пользователю
     await query.answer()
     await query.message.reply_text(response)
+
 
 # Главная функция для запуска бота
 async def main() -> None:
