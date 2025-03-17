@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 
 # ID администратора, чтобы бот уведомлял вас о новых пользователях
-ADMIN_ID = 843926334  # Замените на ваш Telegram ID
+ADMIN_ID =   # Замените на ваш Telegram ID
 
 karma_score = {}
 user_language = {}
@@ -368,7 +368,7 @@ async def handle_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
 # Главная функция для запуска бота
 async def main() -> None:
-    bot = Application.builder().token("7388660688:AAFGIogxaznVvXQ7Pp5i_kpVgctZ09wHrfM").build()
+    bot = Application.builder().token("").build()
 
     bot.add_handler(CommandHandler("start", start))
     bot.add_handler(CallbackQueryHandler(set_language, pattern="^lang_"))
